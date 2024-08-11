@@ -70,7 +70,7 @@ export default function SearchAppBar({ aboutRef }) {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="-webkit-sticky" sx={{ backgroundColor: 'transparent', opacity: '1', top: '0', boxShadow: 'none' }}>
+      <AppBar position="sticky" sx={{ backgroundColor: 'transparent', opacity: '1', top: '0', boxShadow: 'none' }}>
         <Toolbar>
           <Typography
             variant="h5"
