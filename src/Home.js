@@ -47,7 +47,7 @@ function Home() {
           <source src={`${process.env.PUBLIC_URL}/b1.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-          <SearchAppBar aboutRef={aboutRef} />
+          <SearchAppBar aboutRef= {aboutRef} />
           <div className="text">
             <p className="a1">creative</p>
             <p
@@ -74,10 +74,10 @@ function Home() {
         <div className='about' ref={aboutRef}>
                 <div className='photo'></div>
                 <h1 className='heading'>Full-Stack Web Developer</h1>
+                <div className="apple">
                 <p className='theory'>
                     As a dedicated and skilled Full Stack Developer, I possess the relevant expertise required for a full stack development role. My proficiency encompasses both frontend and backend technologies, ensuring a comprehensive understanding of the entire web development process. On the frontend, I have extensive experience with React and various frameworks, enabling me to create dynamic, responsive, and user-friendly interfaces. On the backend, I am well-versed in Node.js and EJS, allowing me to build robust and scalable server-side applications. Additionally, my knowledge extends to databases and the creation of RESTful APIs, ensuring seamless data management and communication between the client and server. With this diverse skill set, I am well-equipped to contribute effectively to any full stack development project.
                 </p>
-
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/adviti-gangwar-67a415185/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -89,6 +89,8 @@ function Home() {
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
                 </div>
+                </div>
+
             </div> 
 
         <div className='developer' ref={developerRef}>

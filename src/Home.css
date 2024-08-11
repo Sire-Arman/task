@@ -9,6 +9,7 @@
     height: 100vh;
     margin: 0;
     padding: 0;
+    /* z-index: 10; */
     overflow: hidden; /* Ensures that the video doesn't overflow the container */
 }
 
@@ -20,7 +21,7 @@
     height: 100%;
     object-fit: cover; 
     transform: translate(-50%, -50%);
-    z-index: -1; 
+    z-index: 0; 
 }
 .designer{
     height: 100vh;
@@ -58,8 +59,8 @@
     color: white;
     position:absolute;
       top:150vh;
-      left: 45vw;   
-      text-decoration: underline; 
+      left: 42vw;   
+      text-decoration: underline;
 }
 
   .theory{
@@ -67,6 +68,7 @@
       font-size:20px;
       color: white;
       position:absolute;
+      display: inline-block;
       top:155vh;
       left:26vw;
       width:50vw;
@@ -80,7 +82,7 @@
     display: flex;
     gap: 20px; /* Space between icons */
     position:absolute;
-      top:185vh;
+      top:225vh;
       left:45.5vw;
 }
 
@@ -88,25 +90,30 @@
     color:white ; /* Change to your preferred color */
     transition: color 0.3s ease;
 }
+.apple{
+    display: flex;
+}
 
 .social-icons a:hover {
     color: #0077b5; /* Change to your preferred hover color, different for each icon if needed */
 }
 
 .developer {
-    height: 100vh;
+    height: 387vh;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 .head{
     font-family: Arial, sans-serif;
     font-size:20px;
     color: white;
     position:absolute;
-      top:215vh;
-      left: 34vw;    
+      top:269vh;
+      align-content: center;
+      /* left: 14vw;     */
 }
 .carousel-container {
     width: 70vw; /* Adjust width as needed */
